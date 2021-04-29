@@ -19,16 +19,16 @@ b. Косинусное затухание с перезапусками (Cosine
 ![image](https://user-images.githubusercontent.com/56519328/116051585-6b880380-a681-11eb-8f16-07aee4705635.png)
 
 **Графики обучения нейронной сети EfficientNet-B0(предварительно обученную на базе изображений imagenet), фиксированный темп обучения 0.01**
-![image](https://user-images.githubusercontent.com/56519328/116393246-13d8cc00-a82a-11eb-9a13-8bad7d0ea3a2.png)
-![image](https://user-images.githubusercontent.com/56519328/116393287-1e936100-a82a-11eb-8842-7237fc719535.png)
+![image](https://user-images.githubusercontent.com/56519328/116607263-715c3e00-a93a-11eb-85d3-4648ed243ccd.png)
+![image](https://user-images.githubusercontent.com/56519328/116607335-846f0e00-a93a-11eb-8182-1e7264ba8277.png)
 
 **Графики обучения нейронной сети EfficientNet-B0(предварительно обученную на базе изображений imagenet), фиксированный темп обучения 0.001**
-![image](https://user-images.githubusercontent.com/56519328/116602459-70281280-a934-11eb-9d5f-4401fd3bfa5b.png)
-![image](https://user-images.githubusercontent.com/56519328/116602500-7b7b3e00-a934-11eb-89b2-ed8edc7ea758.png)
+![image](https://user-images.githubusercontent.com/56519328/116607365-905ad000-a93a-11eb-975d-75906e1cd5ba.png)
+![image](https://user-images.githubusercontent.com/56519328/116607409-a072af80-a93a-11eb-9822-e3e74b465d6c.png)
 
 **Графики обучения нейронной сети EfficientNet-B0(предварительно обученную на базе изображений imagenet), фиксированный темп обучения 0.0001**
-![image](https://user-images.githubusercontent.com/56519328/116606386-550bd180-a939-11eb-87f7-d4bc7115af49.png)
-![image](https://user-images.githubusercontent.com/56519328/116606474-71a80980-a939-11eb-89ec-c69113f94063.png)
+![image](https://user-images.githubusercontent.com/56519328/116607459-b08a8f00-a93a-11eb-828c-1a184ecf4873.png)
+![image](https://user-images.githubusercontent.com/56519328/116607514-c009d800-a93a-11eb-95ae-a60563aede79.png)
 
 
 ***График метрики точности:***
