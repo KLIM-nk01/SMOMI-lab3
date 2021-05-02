@@ -31,9 +31,25 @@ b. Косинусное затухание с перезапусками (Cosine
 ![image](https://user-images.githubusercontent.com/56519328/116607514-c009d800-a93a-11eb-95ae-a60563aede79.png)
 
 
+
+
+**Реализовать и применить в обучении следующие политики изменения темпа
+обучения, а также определить оптимальные параметры для каждой политики:
+a. Косинусное затухание (Cosine Decay)**
+
 ***График метрики точности:***
+![image](https://user-images.githubusercontent.com/56519328/116806456-ca43f600-ab35-11eb-85d8-dfe48f2b8490.png)
+![image](https://user-images.githubusercontent.com/56519328/116806459-d16b0400-ab35-11eb-90f5-6e8513cc6f9b.png)
+
 
 ***График функции потерь:***
+![image](https://user-images.githubusercontent.com/56519328/116806472-e34ca700-ab35-11eb-93c5-339967b5cb71.png)
+![image](https://user-images.githubusercontent.com/56519328/116806476-e9db1e80-ab35-11eb-985b-a2e131ee2fc3.png)
+ 
+ **Графики темпов обучения**
+ ![image](https://user-images.githubusercontent.com/56519328/116806508-26a71580-ab36-11eb-9ac8-7906599e08de.png)
+![image](https://user-images.githubusercontent.com/56519328/116806516-30c91400-ab36-11eb-8102-d326914a17d7.png)
+![image](https://user-images.githubusercontent.com/56519328/116806526-3f173000-ab36-11eb-87f8-96ed14bd62c6.png)
 
 
 
