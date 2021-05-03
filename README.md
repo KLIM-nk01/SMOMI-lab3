@@ -74,9 +74,30 @@ tf.keras.experimental.CosineDecay(initial_learning_rate, decay_steps)
 ## Реализовать и применить в обучении следующие политики изменения темпа обучения, а также определить оптимальные параметры для каждой политики:  b. Косинусное затухание с перезапусками (Cosine Decay with Restarts)
 
  ```python
-tf.keras.experimental.CosineDecayRestarts(initial_learning_rate, first_decay_steps, t_mul=2.0, m_mul=1.0)
+tf.keras.experimental.CosineDecayRestarts(initial_learning_rate, first_decay_steps, t_mul, m_mul)
 ```
- 
+***График метрики точности (валидационные данные):***
+ ![image](https://user-images.githubusercontent.com/56519328/116874576-36038d00-ac22-11eb-8cc7-a4845d04174f.png)
+
+***График функции потерь (валидационные данные):***
+![image](https://user-images.githubusercontent.com/56519328/116874725-72cf8400-ac22-11eb-97e4-1e9e22c50094.png)
+
+***График метрики точности (тренировочные данные):***
+![image](https://user-images.githubusercontent.com/56519328/116874653-54698880-ac22-11eb-9ede-b8b2e9f07a68.png)
+
+***График функции потерь (тренировочные данные):***
+![image](https://user-images.githubusercontent.com/56519328/116874875-b1fdd500-ac22-11eb-8585-3e72fa40bac3.png)
+
+ **Графики темпов обучения**
+![image](https://user-images.githubusercontent.com/56519328/116874824-9b577e00-ac22-11eb-882a-f3f0174e34cf.png)
+
 
 ***Анализ полученных результатов***
+в ходе работы изменялись параметры initial_learning_rate, first_decay_steps, t_mul, m_mul:
+
+![image](https://user-images.githubusercontent.com/56519328/116875584-d5754f80-ac23-11eb-99f3-619e0ec60970.png)
+
+где первый параметр -  initial_learning_rate, второй - first_decay_steps, третий - t_mul, четвертый - m_mul.
+Анализируя полученые графики точности (валидационные данные) для политики Cosine Decay with Restarts, можно сказать что наибольшая точность была достигнута в 12 эпохе, точность равна 67%, для сети с параметрами 0.001 - 10000 - 2.0 - 1.0, однако уже с 13 эпохи сеть с данными параметрами начала переобучаться, что подтверждает график функции потерь (начал возрастать). Анализируя графики для сетей с другими параметрами можно сказать, что наиболее оптимальными параметрами для политики Cosine Decay with Restarts, является набор параметров 0.0001 -  10000 - 1.0 - 1.0. График точности для сети с данными параметрами составил в конечном итоге 67%, а график функции потерь показал наименьшее значение равное 1.24.
+
 
