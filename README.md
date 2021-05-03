@@ -48,9 +48,18 @@ a. Косинусное затухание (Cosine Decay)**
 ![image](https://user-images.githubusercontent.com/56519328/116806476-e9db1e80-ab35-11eb-985b-a2e131ee2fc3.png)
  
  **Графики темпов обучения**
- ![image](https://user-images.githubusercontent.com/56519328/116806508-26a71580-ab36-11eb-9ac8-7906599e08de.png)
-![image](https://user-images.githubusercontent.com/56519328/116806516-30c91400-ab36-11eb-8102-d326914a17d7.png)
-![image](https://user-images.githubusercontent.com/56519328/116806526-3f173000-ab36-11eb-87f8-96ed14bd62c6.png)
+ 
+![image](https://user-images.githubusercontent.com/56519328/116860249-f3ce5180-ac09-11eb-885d-8c1a3578b52d.png)
+ 
+![image](https://user-images.githubusercontent.com/56519328/116860640-8e2e9500-ac0a-11eb-88d5-25902b056c9d.png)
+
+![image](https://user-images.githubusercontent.com/56519328/116860992-12811800-ac0b-11eb-8728-1f7c60fb02e6.png)
+
+
+ 
+ 
+ 
+ 
 
 
 
