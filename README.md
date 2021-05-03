@@ -50,7 +50,9 @@ a. Косинусное затухание (Cosine Decay)**
 ![image](https://user-images.githubusercontent.com/56519328/116806476-e9db1e80-ab35-11eb-985b-a2e131ee2fc3.png)
 
 ***Анализ полученных результатов***
-В ходе выполнения 3а задачи для политики Cosine Decay, я изменял параметры initial_learning_rate и decay_steps, получились следующие наборы параметров: ![image](https://user-images.githubusercontent.com/56519328/116862273-2f1e4f80-ac0d-11eb-8c31-60649e886a98.png), где первый параметр initial_learning_rate а второй соответсвенно ecay_steps
+В ходе выполнения 3а задачи для политики Cosine Decay, я изменял параметры initial_learning_rate и decay_steps, получились следующие наборы параметров: 
+![image](https://user-images.githubusercontent.com/56519328/116862273-2f1e4f80-ac0d-11eb-8c31-60649e886a98.png)
+где первый параметр initial_learning_rate а второй соответсвенно decay_steps. Анализируя полученные графики, могу утверждать, что оптимальными параметрами для политики Cosine Decay из приведенных выше параметров, являются параметры initial_learning_rate =  и decay_steps = 
 
  
  **Графики темпов обучения**
