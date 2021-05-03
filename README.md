@@ -69,7 +69,7 @@ tf.keras.experimental.CosineDecay(initial_learning_rate, decay_steps)
 
 
 
-![image](https://user-images.githubusercontent.com/56519328/116891798-d44e1d80-ac37-11eb-9c1a-b7ab0d330495.png)
+![image](https://user-images.githubusercontent.com/56519328/116893028-2c395400-ac39-11eb-8b32-c03e590366d6.png)
 
 <hr/>
 
