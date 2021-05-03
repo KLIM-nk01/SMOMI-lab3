@@ -16,11 +16,16 @@ a. Косинусное затухание (Cosine Decay) [2,4]
 b. Косинусное затухание с перезапусками (Cosine Decay with Restarts) [3,4]
 
 
-![image](https://user-images.githubusercontent.com/56519328/116051585-6b880380-a681-11eb-8f16-07aee4705635.png)
-
 **Графики обучения нейронной сети EfficientNet-B0(предварительно обученную на базе изображений imagenet), фиксированный темп обучения 0.01, 0.001, 0.0001**
+***График метрики точности (валидационные данные):***
 ![image](https://user-images.githubusercontent.com/56519328/116857070-dba80380-ac04-11eb-8f6f-6d2324459e95.png)
+***График метрики точности (тренировочные данные):***
+![image](https://user-images.githubusercontent.com/56519328/116857553-abad3000-ac05-11eb-94f2-d10d81e55ca4.png)
 
+***График функции потерь (валидационные данные):***
+![image](https://user-images.githubusercontent.com/56519328/116857707-ec0cae00-ac05-11eb-84eb-de0f31d7e606.png)
+***График функции потерь (тренировочные данные):***
+![image](https://user-images.githubusercontent.com/56519328/116857680-e1521900-ac05-11eb-8185-f91f032691fd.png)
 
 
 **Реализовать и применить в обучении следующие политики изменения темпа
